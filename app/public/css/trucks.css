@@ -5,6 +5,10 @@ body {
 	font-family: Helvetica, Arial, sans-serif;
 }
 
+h1 {
+  clear: both;
+}
+
 form {
 	background: #e7e7e7;
 	padding: 10px;
@@ -69,4 +73,27 @@ li {
 .delete_link:hover {
 	background: red;
 	font-weight: bold;
+}
+
+
+div.img {
+    margin: 5px;
+    padding: 5px;
+    height: auto;
+    width: auto;
+    float: left;
+    text-align: center;
+}
+
+div.img img {
+    display: inline;
+    margin: 5px;
+}
+
+
+div.desc {
+    text-align: center;
+    font-weight: normal;
+    width: 120px;
+    margin: 5px;
 }
